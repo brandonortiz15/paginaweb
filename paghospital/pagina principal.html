@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="icon" href="logo.png">
+	
+	<meta charset="utf-8">
+	<title>Hospital</title>
+	<link rel="stylesheet" type="text/css" href="paginaprincipalestilos.css">
+	<script src="pro.js"></script>
+</head>
+<body>
+<div id="contenedor">
+	
+	<div class="ventana" id="vent">
+
+		<div id="cerrar"><a href="javascript:cerrar()"><img src="cerrar.png" width="32px" height="32px"></a></div>
+
+		<h1>Acceder</h1>
+			<h2>Nombre del usuario:</h2>
+	
+			<input type="text" name="nombre" id="nombre" class="caja"><br>
+			<h2>Contraseña:</h2>
+		
+			<input type="password" name="contraseña" id="contra" class="caja"><br>
+		
+		
+
+		<button onclick="iniciar()" class="btniniciar">Iniciar</button>
+		
+		
+	</div>
+	<div id="virus"><h3>COVID-19: Cuida tu salud y la de los que más quieres con estas recomendaciones.<a href="CORONAVIRUS.html" id="boton">Ver más...</a></h3></div>
+		
+	
+	
+
+	<div class="contacto">
+		<div class="a">
+		<a href="pagina principal.html"><img src="logo.png"></a>
+	</div>
+<div class="b">
+	 <div class="headerr">
+    <ul class="nav">
+    <li><a href="Instalaciones.html">Hospitales y Centros</a></li>
+    <li><a href="seguros afiliados.html" >Seguros</a></li>
+    <li><a href="" >Especialidades</a>
+    <ul>
+        <li class="co"><a href="especialida 2.html">Laboratorio y Estudios Medicos</a></li>
+         <li class="co"><a href="especialidad 1.html">Cirugias</a></li>
+          <li class="co"><a href="especialidad 3.html">Pediatria</a></li>
+    </ul>
+	</li>
+    <li><a href="Internados.html" >Internados</a></li>
+    <li class="w"><a id="sesi" href="javascript:sesion()" class="conactar" >Iniciar sesion</a></li> 
+    </ul>
+	</div>
+	</div>	
+	</div>
+
+	<div class="info">
+		<div class="c"><p class="l"><h2 class="t">Nos encanta ayudarte, escribe
+el servicio que estás buscando.
+
+
+<input type="text" class="buscar" placeholder="Ejemplo: Cirugías" list="listads" id="opcion"><a href="javascript:entrar()" id="entrara"><img src="loupe_78956 (1).png"></a>
+
+<datalist id="listads" >
+
+  <option><a href="especialidad 1.html" target="_blank">Cirugías</a></option>
+  <option><a href="especialida 2.html">Laboratorio y Estudios Medicos</a></option>
+  <option><a href="especialidad 3.html">Pediatria</a></option>
+
+</datalist>
+
+
+</div>
+		<div class="d"><img src="doctora.jpg"></div>
+	</div>
+
+	<div class="barra">
+		
+		<div class="barras">
+				
+			<div class="u">
+
+			<img  class="ba" src="https://www.christusmuguerza.com.mx/wp/wp-content/themes/christus-muguerza/_recursos/images/index/xmedico.png.pagespeed.ic.-cirBD2GV9.webp">
+			<br><br>
+			<h3 class="ba">DIRECTORIO MÉDICO</h3>
+			</div>
+					
+
+		</div>		
+		<div class="barras">
+			<div class="uu">
+			
+			<img class="ba" src="https://www.christusmuguerza.com.mx/wp/wp-content/themes/christus-muguerza/_recursos/images/index/xresultados.png.pagespeed.ic.zDcY9vSvz7.webp">
+			<br><br>
+			<h3 class="ba">RESULTADOS DE LABORATORIO</h3>
+			</div>
+		</div>
+		<div class="barras">
+			<div class="uuu">
+			
+			<img class="ba" src="https://www.christusmuguerza.com.mx/wp/wp-content/themes/christus-muguerza/_recursos/images/index/ximagenologia.png.pagespeed.ic.px-9i6Gd7n.webp">
+			<br><br>
+			<h3 class="ba">ACCESO PARA MÉDICOS</h3>
+		</div>
+		</div>
+	</div>
+
+	<div class="formulario">
+		<center>
+			<h1 class="ti">COMUNÍCATE CON NOSOTROS</h1>
+			<h2>Completa los datos requeridos para solicitar información de tu Hospital preferido.</h2>
+		<form>
+			
+			<table>
+				<tr><td><input  id="nom" type="text"  class="caja" placeholder="Nombre" required ></td><td><input id="asunto" type="text" class="caja" placeholder="Asunto" required></td></tr>
+				<tr><td><input id="email" type="email" class="caja" placeholder="E-mail"required></td><td><input id="hospital" type="text" class="caja" placeholder="Hospital/Unidad" required></td></tr>
+				<tr><td><input id="telefono" type="text" class="caja" placeholder="Teléfono" required></td><td><textarea id="mensaje" type="text" class="text" placeholder="Mensaje" required></textarea></td></tr>
+				
+				
+			</table>
+			<input type="checkbox"> He leído y aceptado el Aviso de Privacidad <br>
+			<br>	
+
+			
+		</form>
+		<button onclick="enviar()" class="enviar">Enviar</button>
+		</center>
+	</div>
+	<br>
+	<div class="pie">
+		<div class="con" ><br>
+			<h2 >Suscribete a nuestro newsletter</h2>
+			<input required type="text" class="sus" placeholder="Nombre"  id="name">
+			<input required type="e-mail" class="sus" placeholder="E-mail"  id="gmail">
+			<input required type="text" class="sus" placeholder="Ciudad"  id="ciudad">
+			<input required type="text" class="sus" placeholder="Edad" id="edad">
+			<input required type="text" class="sus"  placeholder="Sexo"  id="sexo">
+
+			<button class="btn" onclick="sub()">Suscribirme</button>
+
+		</div>
+		<div class="con"><br>
+			<h2>Descarga nuestra App:</h2>
+			<img src="https://www.christusmuguerza.com.mx/wp/wp-content/themes/christus-muguerza/_recursos/images/index/xbtn-ios.png.pagespeed.ic.H1M3sw8xli.webp"><br><br>
+			<img src="https://www.christusmuguerza.com.mx/wp/wp-content/themes/christus-muguerza/_recursos/images/index/xbtn-android.png.pagespeed.ic.fU6i5Zae_B.webp"><br><br>
+			<img src="https://www.christusmuguerza.com.mx/wp/wp-content/themes/christus-muguerza/_recursos/images/index/xbtn-windows.png.pagespeed.ic.RfnmH17gCP.webp">
+		</div>
+		<div class="con" ><br>
+			<h2>Más información</h2>
+			
+				<ol class="mas">–Aseguradoras</ol>
+				<ol class="mas">–Sala de prensa</ol>
+				<ol class="mas">–Espacio saludable</ol>
+				<ol class="mas">–International services</ol>
+				<ol class="mas">–El poder de tu Experiencia</ol>
+				<ol class="mas">–Red de Salud</ol>
+				<ol class="mas">–Investigación</ol>
+			
+
+		      
+		</div>
+		<div class="con"><br>
+			<h2>Uneta a la conversacion</h2>
+			<img class="di" src="https://www.christusmuguerza.com.mx/wp/wp-content/themes/christus-muguerza/_recursos/images/index/xfb.png.pagespeed.ic._IT-oYTqFF.webp">
+			<img class="di" src="https://www.christusmuguerza.com.mx/wp/wp-content/themes/christus-muguerza/_recursos/images/index/xtw.png.pagespeed.ic.ssxOfwjEil.webp">
+			<img class="di" src="https://www.christusmuguerza.com.mx/wp/wp-content/themes/christus-muguerza/_recursos/images/index/xyt.png.pagespeed.ic.VuJYEq0wFK.webp">
+			<img class="di" src="https://www.christusmuguerza.com.mx/wp/wp-content/themes/christus-muguerza/_recursos/images/index/xinsta.png.pagespeed.ic.K-DiSyzHK9.webp">
+		</div>
+		
+	</div>
+	<div class="de">
+		<h4 class="li">© Derechos reservados Clinic Name® 2020 | Aviso de Privacidad | Programa Compliance</h4>
+	</div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
